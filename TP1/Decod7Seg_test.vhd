@@ -1,5 +1,6 @@
 Library IEEE ;
 USE ieee.std_logic_1164.all;
+entity Decod7Seg_test is
     port (
         SW: in std_logic_vector(3 Downto 0);
         HEX0: out std_logic_vector(6 Downto 0)
